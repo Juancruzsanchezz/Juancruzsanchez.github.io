@@ -1,0 +1,1148 @@
+:root{  
+    --font: 'Montserrat';
+    --color1:#fff;
+    --color2: #33E7DC;
+    --color3: #333333;
+    --color4: #000;
+    --color5: #101010;
+    --color6: #2b86e3;
+    --color7: #545454;
+}
+
+body{    
+    background-image: url(./Backgrounds/stacked-waves-haikei.svg);
+    background-repeat: no-repeat;   
+    background-position: center;    
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Mobile M */
+
+@media (min-width: 370px) {
+    /* HEADER */
+
+    .navbar-light .navbar-brand {
+        font-size: 1.6rem;
+    }
+
+    .navbar-toggler span img {
+        height: 20px;
+    }
+
+    /* JUMBMBOTRON */
+
+    .Jumbotron-section {    
+        margin: 25% 0 55%;
+    }
+
+    .container-jumbotron-img img {
+        width: 300px
+    }
+
+    .button-jumbotron h1 {  
+        font-size: 5rem;
+    }
+
+    .button-jumbotron h2 {  
+        font-size: 2.8rem;
+    }
+
+    .button-jumbotron p {   
+        font-size: 2.4rem;
+    }
+
+    .button-jumbotron .subtitle {   
+        font-size: 1.4rem;
+    }
+
+    .botton-flex a {    
+        top: 30px;
+        padding: 20px 50px;
+        font-size: 1.8rem;
+        border-radius: 35px;
+    }
+
+    /* ABOUT */
+
+    .container-about-title .about-cont p {  
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+    /* CONTACT */
+
+    .contact-me__title h1 { 
+        font-size: 2.8rem;
+    }
+
+    .contact-me__title p {  
+        font-size: 1.2rem;
+    }
+}
+
+/* Mobile L */
+
+@media (min-width: 390px) { 
+
+    /* JUMBOTRON */
+
+    .Jumbotron-section {    
+        margin: 42% 0 60%;
+    }
+
+    .container-jumbotron-img img {  
+        width: 400px;
+    }
+}
+
+/* Mobile XL */
+
+@media (min-width: 540px) {
+
+    /* header */
+
+    .navbar-light .navbar-brand {
+        font-size: 1.6rem;
+    }
+
+    .navbar-toggler span img {
+        height: 25px;
+    }
+
+    .navbar-nav li a {
+        font-size: 2rem;
+    }
+
+    /* jumbotron */
+
+    .Jumbotron-section {    
+        margin: 25% 0 45%;
+    }
+
+    .container-jumbotron-img img {
+        width: 285px
+    }
+
+    .button-jumbotron h1 {
+        font-size: 5rem;
+    }
+
+    .button-jumbotron h2 {
+        font-size: 3.5rem;
+    }
+
+    .button-jumbotron p {
+        font-size: 3rem;
+    }
+
+    .button-jumbotron .subtitle {
+        font-size: 1.6rem;
+        max-width: 330px;
+    }
+
+    .botton-flex a {
+        top: 15px;
+        padding: 15px 40px;
+        font-size: 2.5rem;
+        border-radius: 30px;
+    }
+
+    /* fin jumbotron */
+
+    /* about */
+
+    .container-about-title {
+        margin-top: 35%;
+    }
+
+    .container-about-title .title-about {
+        margin: 0 0 10%;
+    }
+
+    .container-about-title .title-about i img {
+        height: 100px;
+    }
+
+    .container-about-title .title-about h1 {
+        font-size: 3.4rem;
+        margin: 15px 0 30px;
+    }
+
+    .container-about-title .about-cont {
+        max-width: 450px;
+    }
+
+    .container-about-title .about-cont p {
+        align-items: center;
+        font-size: 2.4rem;
+        line-height: 3rem;
+        padding: 0 20px;
+    }
+
+    /* skills */
+
+    .container-skills-title {
+        margin: 10% 0 45%;
+    }
+
+    .title-skills {
+        margin: 20% 0 10%;
+    }
+
+    .title-skills i img {
+        height: 100px;
+    }
+
+    .title-skills h1 {
+        font-size: 3.4rem;
+        margin: 15px 0 30px;
+    }
+
+    .skills-container {
+        margin: 15px 0;
+    }
+
+    .skills-container .content-skills {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .content-skills .header-skills {
+        height: 50px;
+    }
+
+    .content-skills .header-skills img {
+        width: 50px;
+    }
+    .content-skills .header-skills .skills-img__js {
+        width: 40px;
+    }
+
+    .header-skills .line-percentage {
+        width: 70%;
+        height: 8px;
+    }
+
+    .header-skills .bar-skills__html5 {
+        height: 8px;
+    }
+
+    .header-skills .bar-skills__css3 {
+        height: 8px;
+    }
+
+    .header-skills .bar-skills__js {
+        height: 8px;
+    }
+
+    .header-skills .porcentage {
+        font-size: 1.5rem;
+    }
+
+    .body-skills {
+        height: 35px;
+    }
+
+    .body-skills .body-skills__title {
+        font-size: 2rem;
+    }
+
+    /* certificates */
+
+    .title-carousel {
+        margin: 20% 0 5%;
+    }
+
+    .title-carousel i img {
+        height: 100px;
+    }
+
+    .title-carousel h1 {
+        font-size: 3.4rem;
+        margin: 15px 0 30px;
+    }
+
+    .about-certificates p {
+        font-size: 1.5rem;
+    }
+
+    .carousel {
+        max-width: 450px;
+        margin: 10% auto;
+    }
+
+    .carousel-item img {
+        width: 250px;
+    }
+
+    /* footer */
+
+    .footer-icons .icon {
+        height: 40px;
+        margin: 35px 50px;
+    }
+
+    .botton-footer a {
+        margin: 5% 0 10%;
+        padding: 15px 40px;
+        font-size: 2.5rem;
+        border-radius: 30px;
+    }
+
+    .footer-copyright {
+        font-size: 2rem;
+    }
+
+    footer .end-page {
+        height: 60px;
+    }
+
+    .end-page__title p {
+        font-size: 1.6rem;
+    }
+
+    /* fin footer */
+
+    /* contact */
+
+    .page-container {
+        margin: 15% 0 0;
+    }
+
+    .contact-me__title h1 {
+        font-size: 3.5rem;
+    }
+
+    .contact-me__title p {
+        font-size: 1.6rem;
+    }
+
+    .contact-me .contact-me__cont {
+        margin: 5% 0;
+    }
+
+    .contact-me__cont .vector-right {
+        margin-bottom: 8%;
+    }
+
+    .buttons-grid li a {
+        font-size: 1.8rem;
+    }
+
+    .buttons-grid .bt-ig  {
+        width: 80%;
+    }
+    .buttons-grid .bt-wa {
+        width: 80%;
+    }
+    .buttons-grid .bt-gm {
+        width: 80%;
+    }
+
+    .contact-container {
+        margin: 0;
+    }
+
+}
+
+
+
+/* TABLET-690PX */
+
+@media (min-width: 690px) {
+
+    /* header */
+
+    .navbar-light .navbar-brand {
+        font-size: 2.6rem;
+    }
+
+    .navbar-toggler span img {
+        height: 40px;
+    }
+
+    .navbar-nav {
+        margin: 30px 0 20px 0!important;
+    }
+
+    .navbar-nav li a {
+        font-size: 2.6rem;
+    }
+
+    /* FIN HEADER */
+
+    /* JUMBOTRON */
+
+    .Jumbotron-section {    
+        margin: 15% 0 45%;
+    }
+
+    .container-jumbotron-img img{
+        width: 450px;
+    }
+
+    .button-jumbotron h1 {
+        font-size: 8rem;
+    }
+
+    .button-jumbotron h2 {
+        font-size: 4.5rem;
+    }
+
+    .button-jumbotron p {
+        font-size: 4rem;
+    }
+
+    .button-jumbotron .subtitle {
+        font-size: 1.8rem;
+        max-width: 400px;
+    }
+
+    .botton-flex a {
+        top: 30px;
+        padding: 30px 60px;
+        font-size: 3.5rem;
+        border-radius: 60px;
+    }
+
+    /* ABOUT */
+
+    .container-about-title .title-about i img {
+        height: 150px;
+    }
+
+    .container-about-title .title-about h1 {
+        font-size: 4.4rem;
+        margin: 20px 0 40px;
+    }
+
+    .container-about-title .about-cont {
+        max-width: 550px;
+    }
+
+    .container-about-title .about-cont p {
+        font-size: 3rem;
+        line-height: 3.6rem;
+        padding: 0 15px;
+    }
+
+    /* SKILLS */
+
+    .title-skills i img {
+        height: 150px;
+    }
+
+    .title-skills h1 {
+        font-size: 4.4rem;
+        margin: 20px 0 40px;
+    }
+
+    .skills-container {
+        margin: 20px 0;
+    }
+
+    .skills-container .content-skills {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .content-skills .header-skills {
+        height: 60px;
+    }
+
+    .content-skills .header-skills img {
+        width: 50px;
+    }
+
+    .content-skills .header-skills img {
+        width: 60px;
+    }
+    .content-skills .header-skills .skills-img__js {
+        position: relative;
+        left: 8px;
+        width: 45px;
+    }
+
+    .header-skills .line-percentage {
+        width: 75%;
+        height: 15px;
+    }
+
+    .header-skills .bar-skills__html5 {
+        height: 15px;
+    }
+    .header-skills .bar-skills__css3 {
+        height: 15px;
+    }
+    .header-skills .bar-skills__js {
+        height: 15px;
+    }
+
+    .header-skills .porcentage {
+        font-size: 2.4rem;
+    }
+
+    .body-skills {
+        height: 55px;
+    }
+
+    .body-skills .body-skills__title {
+        font-size: 3rem;
+    }
+
+    /* CERTIFICATES */
+
+    .title-carousel i img {
+        height: 150px;
+    }
+
+    .title-carousel h1 {
+        font-size: 4.4rem;
+        margin: 20px 0 40px;
+    }
+
+    .about-certificates p {
+        font-size: 2.2rem;
+    }
+
+    .carousel {
+        max-width: 650px;
+        margin: 20% auto;
+    }
+
+    .carousel-item img {
+        width: 350px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    /* FOOTER */
+
+    .footer-icons .icon {
+        height: 55px;
+        margin: 45px 70px;
+    }
+
+    .botton-footer a {
+        padding: 20px 50px;
+        font-size: 3.5rem;
+        border-radius: 60px;
+    }
+
+    .footer-copyright {
+        font-size: 3rem;
+    }
+
+    footer .end-page {
+        height: 80px;
+    }
+
+    .end-page__title p {
+        font-size: 2rem;
+    }
+
+    /* CONTACTO */
+
+    .contact-me__title h1 {
+        font-size: 5.5rem;
+        margin: 0;
+    }
+
+    .contact-me__title p {
+        font-size: 2.2rem;
+    }
+
+    .vector-right img {
+        width: 60%;
+    }
+
+    .container-buttons .buttons-grid {
+        gap: 5rem;
+        height: 30vh;
+    }
+
+    .buttons-grid li a {
+        font-size: 2.8rem;
+    }
+}
+
+/* TABLET-820PX */
+
+@media (min-width: 820px) { 
+    
+    /* ABOUT */
+
+    .container-about-title {    
+        margin: 35% 0 20%;
+    }
+
+    .container-about-title .title-about i img { 
+        height: 175px;
+    }
+
+    .container-about-title .title-about h1 {    
+        font-size: 5.4rem;
+    }
+
+    .container-about-title .about-cont p {  
+        font-size: 3.5rem;
+        line-height: 4.6rem;
+    }
+
+    /* JUMBOTRON */
+
+    .container-jumbotron-img img {  
+        width: 680px;
+    }
+
+    /* SKILLS */
+
+    .title-skills i img {   
+        height: 175px;
+    }
+
+    .title-skills h1 {  
+        font-size: 5.4rem;
+    }
+
+    /* CERTIFICATES */
+
+    .title-carousel i img { 
+        height: 175px;
+    }
+
+    .title-carousel h1 {    
+        font-size: 5.4rem;
+    }
+
+    .about-certificates p{  
+        font-size: 2.8rem;
+    }
+}
+
+@media (min-width: 990px) {
+
+    /* HEADER */
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin: 0 !important;
+    }
+
+    .navbar-nav li {
+        padding: 0 5px;
+        transition:all 0.5s ease-in-out;
+    }
+
+    .navbar-nav li:hover {  
+        transform: scale(1.1);
+    }
+
+    .navbar-nav li a:hover {
+        color: var(--color6);
+    }
+
+    .navbar-nav li a:active {
+        color: var(--color7);
+    }
+
+    /* contact */
+
+    .buttons-grid .bt-ig {  
+        width: 50%;
+    }
+    .buttons-grid .bt-wa {  
+        width: 50%;
+    }
+    .buttons-grid .bt-gm {  
+        width: 50%;
+    }
+}
+
+/* LAPTOP-1024PX */
+
+@media (min-width: 1020px) {
+
+    /* HEADER */
+
+    .container-fluid {
+        padding: 5px 15px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin: 0 15px 0 0 !important;
+    }
+
+    .navbar-light .navbar-brand {
+        font-size: 2.6rem;
+        margin-left: 10px;
+    }
+
+    .navbar-nav li a {
+        font-size: 1.8rem;
+    }
+
+    /* JUMBOTRON */
+
+    .Jumbotron-section {    
+        margin: 15% 0 0;
+    }
+
+    .container .jumbotron-flex {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .container-jumbotron-img {
+        width: 50%;
+    }
+
+    .container-jumbotron-img img {
+        width: 380px;
+    }
+
+    .button-jumbotron {
+        width: 50%;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .button-jumbotron h1 {
+        font-size: 5rem;
+    }
+
+    .button-jumbotron h2 {
+        font-size: 3.5rem;
+    }
+
+    .button-jumbotron p {
+        font-size: 3rem;
+    }
+
+    .button-jumbotron .subtitle {
+        text-align: initial;
+        margin: 2% 1% 4%;
+    }
+
+    .botton-flex a {
+        top: 15px;
+        padding: 20px 35px;
+        font-size: 2.5rem;
+    }
+
+    /* FLEX */
+
+    .flex {
+        display: flex;
+        margin: 20% 0 25%;
+    }
+
+    /* ABOUT */
+
+    .container-about-title {
+        width: 50%;
+        margin: 0;
+    }
+
+    .container-about-title .title-about i img {
+        height: 80px;
+    }
+
+    .container-about-title .title-about h1 {
+        font-size: 2.6rem;
+        margin: 10px 0 0;
+    }
+
+    .container-about-title .about-cont p {
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+    }
+
+    /* SKILLS */
+
+    .container-skills-title {
+        width: 50%;
+        margin: 0;
+    }
+
+    .title-skills i img {
+        height: 80px;
+    }
+
+    .title-skills h1 {
+        font-size: 2.6rem;
+        margin: 10px 0 0;
+    }
+
+    .skills-container {
+        margin: 15px 0;
+    }
+
+    .skills-container .content-skills {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .content-skills .header-skills {
+        height: 40px;
+    }
+
+    .content-skills .header-skills img {
+        width: 40px;
+    }
+    .content-skills .header-skills .skills-img__js {
+        position: relative;
+        left: 0;
+        width: 30px;
+    }
+
+    .header-skills .line-percentage {
+        width: 70%;
+        height: 8px;
+    }
+
+    .header-skills .bar-skills__html5 {
+        height: 8px;
+    }
+    .header-skills .bar-skills__css3 {
+        height: 8px;
+    }
+    .header-skills .bar-skills__js {
+        height: 8px;
+    }
+
+    .header-skills .porcentage {
+        font-size: 1.6rem;
+    }
+
+    .body-skills {
+        height: 35px;
+    }
+
+    .body-skills .body-skills__title {
+        font-size: 2.4rem;
+    }
+
+    /* CERTIFICATES */
+
+    .title-carousel i img { 
+        height: 80px;
+    }
+
+    .title-carousel h1 {    
+        font-size: 3.4rem;
+    }
+
+    
+
+    .title-carousel {
+        margin: 0 0 0;
+    }
+
+    .carousel {
+        max-width: 1000px;
+        margin: 15% auto;
+    }
+
+    .carousel-item img {
+        width: 500px;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    /* FOOTER */
+
+    .footer-b { 
+        margin: 10% 0 0;
+    }
+
+    footer {    
+        margin-top: auto;
+    }
+
+   .contact-container { 
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 94px;
+        padding: 0 15px;
+    }
+
+    .footer-icons { 
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        width: 30%;
+        
+    }
+
+    .footer-icons a {   
+        margin: 15px;
+    }
+
+    .footer-icons .icon {   
+        margin: 0;
+        height: 40px;
+        
+    }
+
+    .footer-icons .instagram {  
+        border-right: none ;
+    }
+
+    .footer-icons .whatsapp {   
+        border-right: none;
+    }
+
+    .botton-footer {    
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .botton-footer a {    
+        margin: 0;
+        padding: 15px 40px;
+        font-size: 2.4rem;
+    }
+
+    .footer-copy-cont {    
+        width: 30%;
+    }
+    .footer-copyright { 
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    footer .end-page {  
+        height: 45px;
+    }
+    .end-page__title p {    
+        font-size: 1.4rem;
+    }
+
+    /* CONTACT */
+
+    .page-container {   
+        margin: 6% 0 0;
+    }
+
+    .contact-me .contact-me__cont { 
+        display: flex;
+        margin: 7% 0 0;
+        height: 450px;
+    }
+    .contact-me__cont .vector-right {   
+        width: 50%;
+        margin: 0;
+        align-self: center;
+    }
+    .vector-right img { 
+        width: 80%;
+    }
+    .contact-me__cont .container-buttons {  
+        width: 50%;
+    }
+}
+
+/* LAPTOP-1440PX */
+
+@media (min-width: 1440px) {    
+    
+    /* HEADER */
+
+    .container-fluid {  
+        padding: 5px 40px;
+    }
+    .navbar-nav li {    
+        padding: 0 10px;
+    }
+    .navbar-nav li a {  
+        font-size: 2.2rem;
+    }
+
+    /* JUMBOTRON */
+
+    .Jumbotron-section {    
+        margin: 10% 0 0;
+    }
+    .container-jumbotron-img img {  
+        width: 550px;
+    }
+    .button-jumbotron { 
+        margin-top: 0;
+    }
+    .button-jumbotron { 
+        margin-left: 10%;
+    }
+    .button-jumbotron h1 {  
+        font-size: 8rem;
+    }
+    .button-jumbotron h2 {  
+        font-size: 4.5rem;
+    }
+    .button-jumbotron p {   
+        font-size: 4rem;
+    }
+    .button-jumbotron .subtitle {   
+        font-size: 2.5rem;
+    }
+    .botton-flex a {    
+        font-size: 4rem;
+    }
+
+    /* FLEX */
+
+    .flex { 
+        margin: 15% 0 15%;
+    }
+
+    /* ABOUT */
+
+    .container-about-title .title-about i img { 
+        height: 150px;
+    }
+    .container-about-title .title-about h1 {    
+        font-size: 4.6rem;
+    }
+    .container-about-title .about-cont p {  
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+    }
+
+    /* SKILLS */
+
+    .title-skills i img {   
+        height: 100px;
+    }
+    .title-skills h1 {  
+        font-size: 3.6rem;
+    }
+    .skills-container .content-skills { 
+        max-width: 500px;
+    }
+    .content-skills .header-skills {    
+        height: 50px;
+    }
+    .content-skills .header-skills img {    
+        width: 50px;
+    }
+    .header-skills .porcentage {    
+        font-size: 2.4rem;
+    }
+
+    .body-skills {  
+        height: 40px;
+    }
+    .body-skills .body-skills__title {  
+        font-size: 2.8rem;
+    }
+
+    /* CERTIFICATES */
+
+    .title-carousel i img { 
+        height: 100px;
+    }
+    .title-carousel h1 {    
+        font-size: 4.6rem;
+    }
+
+    footer {    
+        margin-top: auto;
+    }
+
+    /* CONTACT */
+
+    .page-container {   
+        margin: 8% 0 0;
+    }
+}
+
+@media (min-width: 1920px) {    
+
+    /* HEADER */
+
+    .container-fluid {  
+        padding: 5px 175px;
+    }
+    .navbar-light .navbar-brand {   
+        font-size: 3rem;
+    }
+    .navbar-nav li a {  
+        font-size: 2.8rem;
+    }
+
+    /* JUMBOTRON */
+
+    .container-jumbotron-img img {  
+        width: 450px;
+    }
+    .button-jumbotron h1 {  
+        font-size: 9rem;
+    }
+    .button-jumbotron h2 {  
+        font-size: 5.5rem;
+    }
+    .botton-flex a {    
+        font-size: 5rem;
+        padding: 25px 45px;
+    }
+
+    /* ABOUT */
+
+    .container-about-title .title-about i img { 
+        height: 150px;
+    }
+    .container-about-title .title-about h1 {    
+        font-size: 4.6rem;
+    }
+    .container-about-title .about-cont p {  
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+    }
+
+    /* CONTACT */
+
+    .contact-me__title h1 { 
+        font-size: 6.5rem;
+    }
+    .contact-me__title p {  
+        font-size: 2.8rem;
+    }
+
+    .contact-me__cont .container-buttons {  
+        margin-top: 0;
+    }
+
+    .buttons-grid .bt-ig {  
+        height: 100px;
+    }
+    .buttons-grid .bt-wa {  
+        height: 100px;
+    }
+    .buttons-grid .bt-gm {  
+        height: 100px;
+    }
+
+    .buttons-grid li a {    
+        font-size: 3.8rem;
+    }
+}
+
+
+
+

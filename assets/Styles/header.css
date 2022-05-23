@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{  
+    --font: 'Montserrat';
+    --color1:#fff;
+    --color2: #33E7DC;
+    --color3: #333333;
+    --color4: #000;
+    --color5: #101010;
+    --color6: #2b86e3;
+    --color7: #545454;
+}
+html {  
+    font-size: 62.5%;
+}   
+
+ul{
+    list-style: none;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+h1, h2, h3, h4, h5, h6, p{ 
+    font-family: var(--font);
+}
+
+a { 
+    font-family: var(--font);
+    text-decoration: none;  
+    cursor: pointer;
+}  
+
+
+body{   
+    background-color: #000;
+}
+
+
+/*Estilos nav*/
+
+.navbar{    
+    padding: 0!important;
+}
+.container-fluid{   
+    margin: 0!important;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    padding: 10px;
+    background-color: #333333fa;
+}
+.navbar-light .navbar-brand{  
+    color: var(--color1);
+    font-weight: 600;
+    transition: all 1.0s;
+    cursor: default;
+}
+.navbar-light .navbar-brand:hover{  
+    color: var(--color2);
+    transform: scale(1.1);
+}
+.navbar-keys{ 
+    color: #adad5a;
+}
+.navbar-toggler span img{   
+    height: 16px;
+}
+.navbar-nav{    
+    align-items: center;
+    margin: 20px 0 0 0!important;
+}
+.navbar-nav li{ 
+    margin: 10px;
+}
+.navbar-nav li a{   
+    font-size: 1.4rem;
+    color: var(--color1); 
+    transition: all 1.0s;
+}
+.navbar-nav li a:hover{   
+    color: var(--color6);
+}
+
